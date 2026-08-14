@@ -189,9 +189,17 @@ export default function Home() {
           <button className="primary-button" onClick={() => scrollTo("work")}>
             Explore my work <ArrowDown size={17} />
           </button>
-          <a className="secondary-button" href="mailto:ayushparashar609@gmail.com">
+          <button 
+            className="secondary-button" 
+            onClick={() => {
+              const email = 'ayushparashar609@gmail.com';
+              const subject = 'Let\'s Connect — Portfolio';
+              const mailtoLink = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=${encodeURIComponent(subject)}`;
+              window.open(mailtoLink, '_blank');
+            }}
+          >
             Let&apos;s connect <ArrowUpRight size={17} />
-          </a>
+          </button>
         </div>
 
         <div className="hero-bento">
