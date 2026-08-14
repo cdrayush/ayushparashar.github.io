@@ -434,17 +434,25 @@ export default function Home() {
             </p>
           </div>
           <div className="contact-actions">
-            <a href="mailto:ayushparashar609@gmail.com" className="contact-main">
-              <Mail size={18} />
-              ayushparashar609@gmail.com
-              <ArrowUpRight size={18} />
-            </a>
-            <div className="social-row">
-              <a href="https://github.com" target="_blank" rel="noreferrer" aria-label="GitHub">
-                <Code2 size={19} />
+            <div className="social-row social-row-trio">
+              <button
+                type="button"
+                className="social-card social-card-email"
+                onClick={() => {
+                  const email = "ayushparashar609@gmail.com";
+                  const subject = "Let\'s Connect — Portfolio";
+                  const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=${encodeURIComponent(subject)}`;
+                  window.open(gmailUrl, "_blank", "noopener,noreferrer");
+                }}
+                aria-label="Email Ayush Parashar"
+              >
+                <Mail size={24} />
+              </button>
+              <a href="https://www.linkedin.com/in/ayush-paras" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="social-card social-card-linkedin">
+                <Briefcase size={23} />
               </a>
-              <a href="https://www.linkedin.com/in/ayush-paras" target="_blank" rel="noreferrer" aria-label="LinkedIn">
-                <Briefcase size={19} />
+              <a href="https://github.com/cdrayush" target="_blank" rel="noreferrer" aria-label="GitHub" className="social-card social-card-github">
+                <Code2 size={22} />
               </a>
             </div>
           </div>
