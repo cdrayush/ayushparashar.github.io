@@ -292,7 +292,6 @@ export default function Home() {
 
         <div className="about-grid">
           <article className="panel about-story">
-            <span className="panel-number">A</span>
             <h3>From code to care.</h3>
             <p>
               My engineering background taught me to break complex problems
