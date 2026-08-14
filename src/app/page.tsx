@@ -189,7 +189,7 @@ export default function Home() {
           <button className="primary-button" onClick={() => scrollTo("work")}>
             Explore my work <ArrowDown size={17} />
           </button>
-          <a className="secondary-button" href="mailto:ayush@example.com">
+          <a className="secondary-button" href="mailto:ayushparashar609@gmail.com">
             Let&apos;s connect <ArrowUpRight size={17} />
           </a>
         </div>
@@ -426,9 +426,9 @@ export default function Home() {
             </p>
           </div>
           <div className="contact-actions">
-            <a href="mailto:ayush@example.com" className="contact-main">
+            <a href="mailto:ayushparashar609@gmail.com" className="contact-main">
               <Mail size={18} />
-              ayush@example.com
+              ayushparashar609@gmail.com
               <ArrowUpRight size={18} />
             </a>
             <div className="social-row">
