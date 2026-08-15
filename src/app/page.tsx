@@ -52,15 +52,15 @@ const projects: Project[] = [
     link: "#",
   },
   {
-    number: "03",
-    title: "Employee Management System",
-    description:
-      "Full-stack employee management platform covering payroll, attendance and performance tracking.",
-    tech: ["React", "Express", "PostgreSQL"],
-    category: "Full Stack",
-    accent: "lime",
-    link: "#",
-  },
+  number: "03",
+  title: "Healthcare Analytics",
+  description:
+    "Interactive healthcare news and technology platform exploring digital healthcare insights and analytics.",
+  tech: ["Next.js", "React", "TypeScript"],
+  category: "Healthcare",
+  accent: "lime",
+  link: "https://healthcare-news-health-x-tech.vercel.app/",
+},
 ];
 
 const skills = [
@@ -141,11 +141,20 @@ export default function Home() {
             </button>
             <a
               className="nav-cta"
-              href="https://www.linkedin.com/in/ayush-paras"
+              href="/Ayush%20Parashar_CV.pdf"
               target="_blank"
               rel="noreferrer"
             >
-              LinkedIn <ArrowUpRight size={14} />
+            Resume <ArrowUpRight size={14} />
+            </a>
+
+            <a
+            className="nav-cta"
+            href="https://www.linkedin.com/in/ayush-paras"
+            target="_blank"
+            rel="noreferrer"
+            >
+            LinkedIn <ArrowUpRight size={14} />
             </a>
           </div>
 
