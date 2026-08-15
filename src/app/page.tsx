@@ -141,7 +141,7 @@ export default function Home() {
             </button>
             <a
               className="nav-cta"
-              href="/Ayush%20Parashar_CV.pdf"
+              href="/ayushparashar.github.io/Ayush%20Parashar_CV.pdf"
               target="_blank"
               rel="noreferrer"
             >
