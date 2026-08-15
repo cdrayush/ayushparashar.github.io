@@ -140,10 +140,10 @@ export default function Home() {
               Contact
             </button>
             <a
-              className="nav-cta"
-              href="/ayushparashar.github.io/Ayush%20Parashar_CV.pdf"
-              target="_blank"
-              rel="noreferrer"
+            className="nav-cta"
+            href="https://cdrayush.github.io/ayushparashar.github.io/Ayush%20Parashar_CV.pdf"
+            target="_blank"
+            rel="noreferrer"
             >
             Resume <ArrowUpRight size={14} />
             </a>
